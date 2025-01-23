@@ -18,7 +18,7 @@ export class ContentComponent extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="navbar-nav ms-auto">
-                                <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded"
+                                <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded "
                                                                          href="#skills">Skills</a></li>
                                 <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded"
                                                                          href="#about">About</a>
@@ -33,11 +33,14 @@ export class ContentComponent extends Component {
 
                 <header className="masthead bg-primary text-white text-center">
                     <div className="container d-flex align-items-center flex-column">
-                        <img className="masthead-avatar mb-5" src={"./assets/me.svg"}/>
+                        <img className="masthead-avatar mb-5" style={{"borderRadius": "50%"}} src={"./assets/me.jpg"} alt="" />
                         {/* style="color: white; text-decoration: none;" */}
                         <h1 className="masthead-heading text-uppercase mb-0">github : <a
                             href="https://github.com/Thitikorn-Nupan" target="_blank"
                             style={{"color": "white", "textDecoration": "none"}}>Thitikorn Nupan</a></h1>
+                        <h2 className="masthead-heading text-uppercase mb-0 mt-3">Resume : <a
+                            href="./assets/pdf/resume.pdf" target="_blank"
+                            style={{"color": "white", "textDecoration": "none"}}>Here</a></h2>
                         <div className="divider-custom divider-light">
                             <div className="divider-custom-line"></div>
                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
@@ -400,8 +403,7 @@ export class ContentComponent extends Component {
                                                 </div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
                                                 </div>
-                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
-                                                </div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                                 <div className="divider-custom-line"></div>
                                             </div>
 
@@ -485,11 +487,13 @@ export class ContentComponent extends Component {
                                                 </div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
                                                 </div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
                                                 <div className="divider-custom-line"></div>
                                             </div>
                                             <p>
                                                 <code style={{"display": "block"}}>
-                                                    <br/>
+                                                <br/>
                                                     <code
                                                         style={{
                                                             "backgroundColor": "#f1f1f1",
@@ -1028,6 +1032,14 @@ export class ContentComponent extends Component {
                                                 <div className="divider-custom-line"></div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
                                                 </div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
+
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
+
                                                 <div className="divider-custom-line"></div>
                                             </div>
                                             <p>
@@ -1171,6 +1183,8 @@ export class ContentComponent extends Component {
                                                 </div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
                                                 </div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
                                                 <div className="divider-custom-line"></div>
                                             </div>
                                             <p>
@@ -1233,6 +1247,8 @@ export class ContentComponent extends Component {
                                             <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">C</h2>
                                             <div className="divider-custom">
                                                 <div className="divider-custom-line"></div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
                                                 </div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
@@ -1306,6 +1322,8 @@ export class ContentComponent extends Component {
                                                 </div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
                                                 </div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
                                                 <div className="divider-custom-line"></div>
                                             </div>
                                             <p>
@@ -1321,7 +1339,8 @@ export class ContentComponent extends Component {
                                                     , <br/>
                                                     "Angular CLI (Angular Basics , ng commands , ...)" , <br/>
                                                     "Forms (ReactiveFormsModule , Template-Driven Forms , ...)" , <br/>
-                                                    "Routing" <br/>
+                                                    "Routing" ,<br/>
+                                                    "Unit Testing"<br/>
                                                     ] , <br/>
                                                     <code
                                                         style={{
@@ -1378,11 +1397,13 @@ export class ContentComponent extends Component {
                                                 </div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
                                                 </div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
                                                 <div className="divider-custom-line"></div>
                                             </div>
                                             <p>
                                                 <code style={{"display": "block"}}>
-                                                    <br/>
+                                                <br/>
                                                     <code
                                                         style={{
                                                             "backgroundColor": "#f1f1f1",
@@ -1444,16 +1465,20 @@ export class ContentComponent extends Component {
                                 <div className="container">
                                     <div className="row justify-content-center">
                                         <div className="col-lg-8">
-                                            <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Linux</h2>
+                                            <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Linux Ubuntu</h2>
                                             <div className="divider-custom">
                                                 <div className="divider-custom-line"></div>
                                                 <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>
+                                                <div className="divider-custom-icon"><i className="fas fa-star"></i>
+                                                </div>                          <
+                                                div className="divider-custom-icon"><i className="fas fa-star"></i>
                                                 </div>
                                                 <div className="divider-custom-line"></div>
                                             </div>
                                             <p>
                                                 <code style={{"display": "block"}}>
-                                                    <br/>
+                                                <br/>
                                                     <code
                                                         style={{
                                                             "backgroundColor": "#f1f1f1",
@@ -1470,7 +1495,10 @@ export class ContentComponent extends Component {
                                                             "padding": "2px"
                                                         }}>"Experiences"</code> :
                                                     [<br/>
-                                                    "Apply with Docker" <br/>
+                                                    "Apply with Docker" , <br/>
+                                                    "Deploy Applications" , <br/>
+                                                    "Setup Apache for static website" , <br/>
+                                                    "Manage Port Applications" <br/>
                                                     ] ,<br/>
                                                     <code
                                                         style={{

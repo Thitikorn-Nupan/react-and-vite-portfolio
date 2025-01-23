@@ -91,6 +91,7 @@
   }
 }
 
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -3627,11 +3628,12 @@ textarea.form-control-lg {
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
-    transition: none;
+    transition: 0.3s;
   }
 }
 .nav-link:hover, .nav-link:focus {
   color: var(--bs-nav-link-hover-color);
+  transition-delay: .2s;
 }
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
@@ -10874,6 +10876,7 @@ html {
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
 
 #mainNav {
