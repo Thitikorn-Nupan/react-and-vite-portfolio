@@ -5,7 +5,7 @@ export class ContentComponent extends Component {
         return (
             <>
                 <div id="page-top"></div>
-
+                {/* Navbar */}
                 <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
                     <div className="container">
                         <a className="navbar-brand" href="#page-top">Portfolio</a>
@@ -30,28 +30,24 @@ export class ContentComponent extends Component {
                     </div>
                 </nav>
 
-
                 <header className="masthead bg-primary text-white text-center">
                     <div className="container d-flex align-items-center flex-column">
-                        <img className="masthead-avatar mb-5" style={{"borderRadius": "50%"}} src={"./assets/me.jpg"} alt="" />
-                        {/* style="color: white; text-decoration: none;" */}
-                        <h1 className="masthead-heading text-uppercase mb-0">github : <a
-                            href="https://github.com/Thitikorn-Nupan" target="_blank"
-                            style={{"color": "white", "textDecoration": "none"}}>Thitikorn Nupan</a></h1>
-                        <h2 className="masthead-heading text-uppercase mb-0 mt-3">Resume : <a
-                            href="./assets/pdf/resume.pdf" target="_blank"
-                            style={{"color": "white", "textDecoration": "none"}}>Here</a></h2>
+                        <img className="masthead-avatar mb-5" style={{"borderRadius": "50%","border":" 5px solid #4f4f53"}} src="../../../src/assets/me.jpg" alt="" />
+                        <h2 className="masthead-heading text-uppercase mb-0 mt-3"> <a
+                            href="../../../src/assets/pdf/resume.pdf" target="_blank"
+                            style={{"color": "white", "textDecoration": "none"}}>Resume Here</a></h2>
                         <div className="divider-custom divider-light">
                             <div className="divider-custom-line"></div>
+                            <div className="divider-custom-line"></div>
                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                             <div className="divider-custom-line"></div>
+                            <div className="divider-custom-line"></div>
                         </div>
-                        <p className="masthead-subheading font-weight-light mb-0">Hi, I am Thitikorn takes a look my
-                            portfolio</p>
+                        <p className="masthead-subheading font-weight-light mb-0">Hello guys,  i'm a third year at rmutp university and my majoring is com-sci.</p>
                     </div>
                 </header>
 
@@ -60,7 +56,7 @@ export class ContentComponent extends Component {
 
                     <div className="container">
 
-                        <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0 p-3 mb-3">My
+                        <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0 p-3 mb-3">Some
                             skills</h2>
 
                         <div className="row justify-content-center">
@@ -73,7 +69,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/spring-boot-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/spring-boot-ic.png"/>
                                 </div>
                             </div>
 
@@ -85,7 +81,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/node-js-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/node-js-ic.png"/>
                                 </div>
                             </div>
 
@@ -97,7 +93,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/android-studio-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/android-studio-ic.png"/>
                                 </div>
                             </div>
 
@@ -109,7 +105,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/mysql-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/mysql-ic.png"/>
                                 </div>
                             </div>
 
@@ -121,7 +117,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/postgresql-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/postgresql-ic.png"/>
                                 </div>
                             </div>
 
@@ -133,7 +129,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/mr-igot.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/mr-igot.png"/>
                                 </div>
                             </div>
 
@@ -145,7 +141,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/javascript-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/javascript-ic.png"/>
 
                                 </div>
                             </div>
@@ -158,7 +154,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/java-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/java-ic.png"/>
                                 </div>
                             </div>
 
@@ -170,7 +166,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/kotlin-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/kotlin-ic.png"/>
                                 </div>
                             </div>
 
@@ -182,7 +178,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/git-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/git-ic.png"/>
 
                                 </div>
                             </div>
@@ -195,7 +191,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/php-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/php-ic.png"/>
                                 </div>
                             </div>
 
@@ -207,7 +203,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/c-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/c-ic.png"/>
                                 </div>
                             </div>
 
@@ -220,7 +216,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/ng-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/ng-ic.png"/>
                                 </div>
                             </div>
 
@@ -232,7 +228,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/dk-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/dk-ic.png"/>
                                 </div>
                             </div>
 
@@ -244,7 +240,7 @@ export class ContentComponent extends Component {
                                         <div className="portfolio-item-caption-content text-center text-white"><i
                                             className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src="./assets/images/ln-ic.png"/>
+                                    <img className="img-fluid" src="../../../src/assets/images/ln-ic.png"/>
                                 </div>
                             </div>
 
@@ -373,7 +369,7 @@ export class ContentComponent extends Component {
                     </div>
                 </footer>
                 <div className="copyright py-4 text-center text-white">
-                    <div className="container"><small>Copyright &copy;</small></div>
+                    <div className="container"><small>Thitikorn's Porfolio &copy; </small></div>
                 </div>
 
 
